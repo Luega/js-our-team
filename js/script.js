@@ -43,13 +43,13 @@ for (let i = 0; i < team.length; i++) {
   <div class="team-card">
     <div class="card-image">
       <img
-        src="img/${}"
+        src="img/${team[i].image}"
         alt="Wayne Barnett"
       />
     </div>
     <div class="card-text">
-      <h3>${}</h3>
-      <p>${}</p>
+      <h3>${team[i].name}</h3>
+      <p>${team[i].role}</p>
     </div>
   </div>
   `;
