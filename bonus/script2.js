@@ -80,6 +80,21 @@ document.getElementById("addMemberButton").addEventListener("click", function(){
     team.push(newMember);
     console.log(newMember);
     console.log(team);
+    teamContainer.innerHTML += 
+    `
+    <div class="team-card">
+      <div class="card-image">
+        <img
+          src="img/${newMember.image}"
+          alt="Wayne Barnett"
+        />
+      </div>
+      <div class="card-text">
+        <h3>${newMember.name}</h3>
+        <p>${newMember.role}</p>
+      </div>
+    </div>
+    `;
 });
 
 
