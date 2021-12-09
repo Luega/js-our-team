@@ -72,6 +72,14 @@ document.getElementById("addMemberButton").addEventListener("click", function(){
     console.log(nameUser);
     console.log(roleUser);
     console.log(imageUser);
+    let newMember = {
+        name: nameUser,
+        role: roleUser,
+        image: imageUser
+      }
+    team.push(newMember);
+    console.log(newMember);
+    console.log(team);
 });
 
 
