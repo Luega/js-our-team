@@ -58,8 +58,20 @@ const team = [
 
 // dichiaro le variabili
 let nameUser = document.getElementById("name");
-let RoleUser = document.getElementById("role");
-let ImageUser = document.getElementById("image");
+let roleUser = document.getElementById("role");
+let imageUser = document.getElementById("image");
 console.log(nameUser);
-console.log(RoleUser);
-console.log(ImageUser);
+console.log(roleUser);
+console.log(imageUser);
+
+// creo l´evento click
+document.getElementById("addMemberButton").addEventListener("click", function(){
+    nameUser = nameUser.value;
+    roleUser = roleUser.value;
+    imageUser = imageUser.value;
+    console.log(nameUser);
+    console.log(roleUser);
+    console.log(imageUser);
+});
+
+
