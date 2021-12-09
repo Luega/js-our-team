@@ -30,7 +30,6 @@ const team = [
     image: 'barbara-ramos-graphic-designer.jpg',
   },
 ];
-console.log(team);
 // Prendendo come riferimento la card di esempio presente nell’html, stampiamo dinamicamente una card per ogni membro del team.
 
 // dichiaro l´elemento container
