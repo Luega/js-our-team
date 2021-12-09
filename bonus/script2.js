@@ -66,16 +66,13 @@ console.log(imageUser);
 
 // creo l´evento click
 document.getElementById("addMemberButton").addEventListener("click", function(){
-    nameUser = nameUser.value;
-    roleUser = roleUser.value;
-    imageUser = imageUser.value;
-    console.log(nameUser);
-    console.log(roleUser);
-    console.log(imageUser);
+    let nameValue = nameUser.value;
+    let roleValue = roleUser.value;
+    let imageValue = imageUser.value;
     let newMember = {
-        name: nameUser,
-        role: roleUser,
-        image: imageUser
+        name: nameValue,
+        role: roleValue,
+        image: imageValue
       }
     team.push(newMember);
     console.log(newMember);
