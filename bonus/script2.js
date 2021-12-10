@@ -42,7 +42,7 @@ const team = [
       <div class="card-image">
         <img
           src="img/${team[i].image}"
-          alt="Wayne Barnett"
+          alt="${team[i].name}"
         />
       </div>
       <div class="card-text">
